@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Processor">
+      <UniqueIdentifier>{d680ec85-be72-4b86-ac39-8b05d441c5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processor\Vital">
+      <UniqueIdentifier>{8554a593-ea14-4b4f-8062-ec66cb92b85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processor\mastercard">
+      <UniqueIdentifier>{07cd1e88-5037-40da-9d2d-d7a2e009b1b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpawnApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor\StringHash.cpp">
+      <Filter>Source Files\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor\TCProcessor.cpp">
+      <Filter>Source Files\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor\Platform.cpp">
+      <Filter>Source Files\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor\Merchant.cpp">
+      <Filter>Source Files\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor\Vital\CofInfo.cpp">
+      <Filter>Source Files\Processor\Vital</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor\Vital\TSYSCofInfo.cpp">
+      <Filter>Source Files\Processor\Vital</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor\Vital\Vital.cpp">
+      <Filter>Source Files\Processor\Vital</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor\mastercard\mccitmit.cpp">
+      <Filter>Source Files\Processor\mastercard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Processor\StringHash.h">
+      <Filter>Source Files\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor\TCProcessor.h">
+      <Filter>Source Files\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor\Platform.h">
+      <Filter>Source Files\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor\Merchant.h">
+      <Filter>Source Files\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor\Vital\CofInfo.h">
+      <Filter>Source Files\Processor\Vital</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor\Vital\TSYSCofInfo.h">
+      <Filter>Source Files\Processor\Vital</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor\Vital\Vital.h">
+      <Filter>Source Files\Processor\Vital</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor\mastercard\mccitmit.h">
+      <Filter>Source Files\Processor\mastercard</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
