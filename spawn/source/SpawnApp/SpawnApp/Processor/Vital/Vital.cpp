@@ -36,11 +36,7 @@ bool Vital::buildSaleReq(StringHash& data, StringHash& store)
 		std::cout << "vital: buildSaleReq() - mediatype matches 'mc'\n";
 
 		//ToDo: mocked
-		StringHash transaction_snapshot;
-		transaction_snapshot.put("action", "sale");
-		transaction_snapshot.put("billingid", "y");
-		transaction_snapshot.put("cit", "y");
-		transaction_snapshot.put("cardonfileid", "y");
+		StringHash& transaction_snapshot = data;
 
 		bool acceptableStoreAction = data.check("action", "preauth") || data.check("action", "sale") || data.check("action", "emv_auth");
 		if (acceptableStoreAction && data.check("store", "y"))
