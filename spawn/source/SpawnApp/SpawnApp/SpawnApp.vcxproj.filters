@@ -78,4 +78,7 @@
       <Filter>Source Files\Processor\mastercard</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="App.config" />
+  </ItemGroup>
 </Project>

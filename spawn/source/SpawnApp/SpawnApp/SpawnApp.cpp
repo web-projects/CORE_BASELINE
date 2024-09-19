@@ -9,6 +9,10 @@
 
 #include "Processor\TCProcessor.h"
 
+//using namespace System;
+//using namespace System::Configuration;
+//using System.Configuration;
+
 using namespace std;
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
@@ -63,6 +67,15 @@ static StringHash ProcessArguments(int argc, char* argv[])
     return data;
 }
 
+StringHash ProcessAppConfig()
+{
+    StringHash data;
+
+    //ConfigurationManager::AppSettings["action"];
+
+    return data;
+}
+
 int main(int argc, char* argv[])
 {
     TCProcessor Proc;
@@ -73,6 +86,7 @@ int main(int argc, char* argv[])
     if (Proc.assignPlatform("M"))
     {
         StringHash data = ProcessArguments(argc, argv);
+        //StringHash data = ProcessAppConfig();
 
         // from arguments
         //data.put("action", "sale");
