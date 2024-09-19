@@ -19,16 +19,19 @@
     <Filter Include="Source Files\Processor\Vital">
       <UniqueIdentifier>{8554a593-ea14-4b4f-8062-ec66cb92b85f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Processor\mastercard">
+    <Filter Include="Source Files\Processor\cardbrands">
+      <UniqueIdentifier>{df177a3c-2d77-4cc2-b48a-cf21181b3410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processor\cardbrands\mastercard">
       <UniqueIdentifier>{07cd1e88-5037-40da-9d2d-d7a2e009b1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{26ece1c9-7b15-4590-9c95-767d8ccf403c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SpawnApp.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Processor\StringHash.cpp">
-      <Filter>Source Files\Processor</Filter>
     </ClCompile>
     <ClCompile Include="Processor\TCProcessor.cpp">
       <Filter>Source Files\Processor</Filter>
@@ -48,14 +51,14 @@
     <ClCompile Include="Processor\Vital\Vital.cpp">
       <Filter>Source Files\Processor\Vital</Filter>
     </ClCompile>
-    <ClCompile Include="Processor\mastercard\mccitmit.cpp">
-      <Filter>Source Files\Processor\mastercard</Filter>
+    <ClCompile Include="Processor\cardbrands\mastercard\mccitmit.cpp">
+      <Filter>Source Files\Processor\cardbrands\mastercard</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\StringHash.cpp">
+      <Filter>Source Files\Common</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Processor\StringHash.h">
-      <Filter>Source Files\Processor</Filter>
-    </ClInclude>
     <ClInclude Include="Processor\TCProcessor.h">
       <Filter>Source Files\Processor</Filter>
     </ClInclude>
@@ -74,8 +77,11 @@
     <ClInclude Include="Processor\Vital\Vital.h">
       <Filter>Source Files\Processor\Vital</Filter>
     </ClInclude>
-    <ClInclude Include="Processor\mastercard\mccitmit.h">
-      <Filter>Source Files\Processor\mastercard</Filter>
+    <ClInclude Include="Processor\cardbrands\mastercard\mccitmit.h">
+      <Filter>Source Files\Processor\cardbrands\mastercard</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StringHash.h">
+      <Filter>Source Files\Common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

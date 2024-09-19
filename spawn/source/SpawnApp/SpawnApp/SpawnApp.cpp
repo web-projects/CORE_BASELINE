@@ -102,7 +102,7 @@ int main(int argc, char* argv[])
 
         if (response.size() > 0)
         {
-            std::cout << "main: request has CMI value: " << response.get("CMI") << "\n";
+            std::cout << "main : request has CMI value: " << response.get("CMI") << "\n";
         }
     }
 }

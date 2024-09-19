@@ -127,10 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Processor\mastercard\mccitmit.cpp" />
+    <ClCompile Include="Common\StringHash.cpp" />
+    <ClCompile Include="Processor\cardbrands\mastercard\mccitmit.cpp" />
     <ClCompile Include="Processor\Merchant.cpp" />
     <ClCompile Include="Processor\Platform.cpp" />
-    <ClCompile Include="Processor\StringHash.cpp" />
     <ClCompile Include="Processor\TCProcessor.cpp" />
     <ClCompile Include="Processor\Vital\CofInfo.cpp" />
     <ClCompile Include="Processor\Vital\TSYSCofInfo.cpp" />
@@ -138,10 +138,10 @@
     <ClCompile Include="SpawnApp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Processor\mastercard\mccitmit.h" />
+    <ClInclude Include="Common\StringHash.h" />
+    <ClInclude Include="Processor\cardbrands\mastercard\mccitmit.h" />
     <ClInclude Include="Processor\Merchant.h" />
     <ClInclude Include="Processor\Platform.h" />
-    <ClInclude Include="Processor\StringHash.h" />
     <ClInclude Include="Processor\TCProcessor.h" />
     <ClInclude Include="Processor\Vital\CofInfo.h" />
     <ClInclude Include="Processor\Vital\TSYSCofInfo.h" />

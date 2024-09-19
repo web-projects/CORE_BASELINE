@@ -2,8 +2,8 @@
 
 #include "mccitmit.h"
 
-#include "..\Vital\CofInfo.h"
-#include "..\StringHash.h"
+#include "..\..\Vital\CofInfo.h"
+#include "..\..\..\Common\StringHash.h"
 
 mccitmit::mccitmit(StringHash& data,
     const std::string& transId,

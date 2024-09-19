@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include "Vital.h"
-#include "..\mastercard\mccitmit.h"
+#include "..\cardbrands\mastercard\mccitmit.h"
 #include "TSYSCofInfo.h"
 
 Vital::Vital(TCProcessor* p) : Platform(p)

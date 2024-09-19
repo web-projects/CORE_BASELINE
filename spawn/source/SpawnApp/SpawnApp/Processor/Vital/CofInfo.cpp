@@ -2,7 +2,7 @@
 #include <sstream>
 
 #include "CofInfo.h"
-#include "..\StringHash.h"
+#include "..\..\Common\StringHash.h"
 
 namespace
 {

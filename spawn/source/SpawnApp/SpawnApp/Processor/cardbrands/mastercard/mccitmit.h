@@ -1,6 +1,6 @@
 #pragma once
 
-#include "..\Vital\cofInfo.h"
+#include "..\..\Vital\cofInfo.h"
 
 #define CMIDATA_LENGTH 4
 

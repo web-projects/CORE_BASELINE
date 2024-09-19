@@ -1,7 +1,7 @@
 #ifndef _TCPROCESSOR_H
 #define _TCPROCESSOR_H
 
-#include "StringHash.h"
+#include "..\Common\StringHash.h"
 #include "Platform.h"
 #include "Merchant.h"
 

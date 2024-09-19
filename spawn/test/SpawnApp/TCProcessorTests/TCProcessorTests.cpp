@@ -1,8 +1,8 @@
 #include "pch.h"
 #include "CppUnitTest.h"
 
-#include "..\..\..\Source\SpawnApp\SpawnApp\Processor\StringHash.h"
-#include "..\..\..\Source\SpawnApp\SpawnApp\Processor\StringHash.cpp"
+#include "..\..\..\Source\SpawnApp\SpawnApp\Common\StringHash.h"
+#include "..\..\..\Source\SpawnApp\SpawnApp\Common\StringHash.cpp"
 #include "..\..\..\Source\SpawnApp\SpawnApp\Processor\Merchant.h"
 #include "..\..\..\Source\SpawnApp\SpawnApp\Processor\Merchant.cpp"
 #include "..\..\..\Source\SpawnApp\SpawnApp\Processor\Platform.h"

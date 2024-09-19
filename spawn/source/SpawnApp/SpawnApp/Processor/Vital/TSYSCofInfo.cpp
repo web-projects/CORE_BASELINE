@@ -1,6 +1,6 @@
-#include "..\mastercard\mccitmit.h"
+#include "..\cardbrands\mastercard\mccitmit.h"
 #include "TSYSCofInfo.h"
-#include "..\StringHash.h"
+#include "..\..\Common\StringHash.h"
 
 TSYSCofInfo::TSYSCofInfo(StringHash& data,
     const std::string& transId,

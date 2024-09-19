@@ -1,7 +1,7 @@
 #ifndef _PLATFORM_H
 #define _PLATFORM_H
 
-#include "StringHash.h"
+#include "..\Common\StringHash.h"
 
 class TCProcessor;
 
