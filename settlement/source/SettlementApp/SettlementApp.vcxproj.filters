@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CopyFileToFolders Include="App.config" />
+    <CopyFileToFolders Include="assets\jb.2000.config">
+      <Filter>assets</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="fileprocessor">
+      <UniqueIdentifier>{656fdbe9-0663-4fb7-b28a-e66b9a4a9f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{324e1e1e-aca2-4789-9270-a02d671fd297}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fileprocessor\IniParser.cpp">
+      <Filter>fileprocessor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fileprocessor\IniParser.h">
+      <Filter>fileprocessor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
